@@ -59,6 +59,8 @@ function setupHandlers(app, db, messageChannel) {
         console.log(JSON.stringify(parsedMsg, null, 4)); // JUST PRINTING THE RECEIVED MESSAGE.
 
         // ... ADD YOUR CODE HERE TO PROCESS THE MESSAGE ...
+        console.log(parsedMsg)
+        console.log(`recommendation video ${parsedMsg.id}`)
 
         console.log("Acknowledging message was handled.");
 
